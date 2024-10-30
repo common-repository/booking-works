@@ -1,0 +1,654 @@
+@charset "utf-8";
+
+
+
+/* CSS Document */
+
+
+
+#ns-container-add-product-frontend{
+
+	display:none;
+
+}
+
+
+
+.wp-ca-renting .wp-ca-ns-sale-price,
+
+.wp-ca-renting #ns-inventory,
+
+.wp-ca-renting .ns-inventory,
+
+.wp-ca-renting #ns-shipping,
+
+.wp-ca-renting .ns-shipping,
+
+.wp-ca-renting #ns-attributes,
+
+.wp-ca-renting .ns-attributes,
+
+#ns-product-gallery,
+
+#ns-short-desc-container,
+
+#ns-product-tags,
+
+#ns-product-categories,
+
+.wp-ca-ns-menu-order,
+
+.wp-ca-ns-comment-status,
+
+.wp-ca-ns-bottom-content,
+
+.wp-ca-ns-top-content,
+
+.wp-ca-ns-video-size,
+
+.wp-ca-ns-cus-tab-content,
+
+.wp-ca-ns-custom-tab,
+
+.wp-ca-ns-bubble-text{
+
+	display:none !important;	
+
+}
+
+.wp-ca-renting #ns-post-content-text{
+
+	height:200px;
+
+}
+
+#ns-container-add-product-frontend input[type="text"],
+
+#ns-container-add-product-frontend textarea{
+
+	width:100%;
+
+}
+
+#ns-container-add-product-frontend input[type="checkbox"]{
+
+	margin-right:10px;
+
+}
+
+.wp_ca_goback{
+
+	cursor:pointer;
+
+}
+
+.wp_ca_list_user_items{
+
+}
+.wp_ca_list_user_items td[align="center"]{
+	text-align:center;
+}
+
+.wp_ca_list_user_items a{
+
+	cursor:pointer;
+	text-transform:capitalize;
+
+}
+
+
+
+
+
+.wp_ca_item_edit_section{
+
+	
+
+}
+
+
+
+.wp_ca_item_edit_section .wp_ca_hours_selection{
+
+	
+
+}
+
+
+
+.wp_ca_item_edit_section .scrollable-menu ul{
+
+	height: auto;
+
+	max-height: 212px;
+
+	overflow-x: hidden;
+
+}
+
+
+
+.wp-ca-am-pm{
+
+	position:relative;
+
+	margin-top:30px;
+
+}
+
+.wp-ca-am-pm span {
+
+	font-weight: bold;
+
+	margin-left: 6px;
+
+	position: absolute;
+
+	top: -20px;
+
+}
+
+.wp-ca-am-hours-count{
+
+
+
+}
+
+.wp-ca-am-hours-count h3.label{
+	font-size:14px;
+	
+}
+
+.wp-ca-am,
+
+.wp-ca-pm{
+
+	
+
+	font-size:22px;
+
+}
+
+
+
+.wp-ca-am-pm button.unavailable{
+	font-family:"FontAwesome";
+
+	content:"\f00d";	
+}
+	
+.wp_ca_product_types button.btn{
+
+	margin:0;
+
+}
+
+
+
+.rentable_view .wp-ca-offer-counter{
+
+	background-color:rgba(70,184,218,0.2);
+
+	padding:30px 20px 30px 20px;
+
+	margin-bottom:10px;
+
+}
+
+.rentable_view form.cart{
+
+	clear:both;
+
+	margin:20px 0 0 0;
+
+	float:right;
+
+}
+
+.rentable_view form.cart button{
+
+	
+
+	float:right;
+
+}
+
+
+
+.wp_ca_offer_counter_bottom{
+
+	margin: 20px 0 0 0;
+
+	
+
+}
+
+.wp_ca_offer_counter_bottom img{
+
+	height:60px;	
+
+	margin-bottom:10px;
+
+}
+
+.wp_ca_offer_counter_bottom h6,
+
+.wp_ca_offer_counter_bottom h6 a{
+
+	font-size:12px;
+
+	font-weight:normal;
+
+}
+
+.wp_ca_offer_counter_bottom > div:last-child{
+
+	text-align:right;	
+
+}
+
+.wp-ca-timezone{
+
+	text-align:left;
+
+}
+
+
+
+.wp_ca_products_draft{
+
+	display:none;
+
+}
+
+.wp_ca_products_form input[type="submit"]{
+
+	display:none;
+
+}
+
+.wp_ca_products_form .btn-group{
+
+	margin-bottom:40px;
+
+}
+
+.wp_ca_products_form .btn-group button{
+
+	margin:0;
+
+}
+
+.nopadding {
+
+   padding: 0 !important;
+
+   margin: 0 !important;
+
+}
+
+.wp_ca_booking_tracking input[type="text"] {
+
+  border-radius: 10px;
+
+  font-size: 30px;
+
+  margin: 0 auto;
+
+  padding: 10px;
+
+  width: 100%;
+
+}
+
+.wp_ca_booking_tracking input[type="submit"] {
+
+    order-top-right-radius: 10px;
+    font-size: 20px;
+    height: 62px;
+    display: none;
+    padding: 0;
+    position: absolute;
+    right: 1px;
+    top: 2px;
+    width: 66px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+}
+
+
+
+
+
+.single-product.renting #primary {
+
+  width: 100%;
+
+}
+
+
+
+.single-product.renting form.cart td,
+
+.single-product.renting form.cart fieldset,
+
+.single-product.renting form.cart fieldset legend{
+
+	background:none;
+
+}
+
+.single-product.renting form.cart label {
+
+  color: #000;
+
+  font-family: arial;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  padding: 20px;
+
+}
+
+.single-product.renting .wp_ca_hours_selection input[type="text"] {
+
+  height: 34px;
+
+  width: 168px;
+
+}
+
+.menu-related,
+
+.single-product.renting .quantity.buttons_added{
+
+	display:none;
+
+}
+
+.menu-related .menu-item,
+.home div[id^="row-"][class*="row-full-width"],
+.woocommerce-cart .woocommerce-messages{
+
+	display:none;
+
+}
+
+.logged-in .menu-related{
+
+	display:inline-block;
+
+}
+
+.logged-in.administrator .menu-related .menu-item{
+
+	display:block;
+
+}
+
+.logged-in.customer .menu-related .menu-item.customer-related{
+
+	display:block;
+
+}
+
+.wp_ca_cslots div.row span.hh{
+	margin-left:10px;
+	font-size: 14px;
+}
+
+.wp_ca_cslots div.row span.hh:before {
+	font-family: "FontAwesome";
+	content: "\f017";
+	font-size: 14px;
+	margin-right: 2px;
+}
+.woocommerce-account .acf-form label {
+	text-align: left;
+}
+.acf-form ul.radio {
+	list-style: none;
+}
+.acf-form .ns-active{
+	background:none;
+}
+.wp_ca_product_sub_types{
+	visibility:hidden;
+	margin-bottom:20px !important;
+}
+.wp_ca_product_sub_types button.btn{
+	margin:0;
+}
+.wp-ca-ns-thumbnail {
+	overflow: hidden;
+}
+.edit-section{
+
+}
+.edit-section select option.level-0 {
+    background-color: #eee;
+}
+.ticket-section .wp-ca-offer-counter h2,
+.wp_ca_printing .ticket-section .wp-ca-offer-counter{
+	display:none;
+}
+.wp_ca_item_edit_section.selecting {
+	position: absolute;
+	background-color: #fff;
+	z-index: 1;
+	width: 140px;
+	padding: 20px 40px;
+	top:0;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	left: 0;
+}
+.wp_ca_item_edit_section.selecting .wp_ca_hours_selection .wipe-out:before,
+.wp_ca_item_edit_section.selecting .wp_ca_hours_selection .down-to:before {
+	font-family: "FontAwesome";
+	content: "\f146";
+	font-size: 28px;
+	position: absolute;
+	top: -4px;
+	cursor: pointer;
+	right: 32px;
+	opacity: 0.2;
+}
+.wp_ca_item_edit_section.selecting .wp_ca_hours_selection .wipe-out:before{
+	content: "\f00d";
+	top: -2px;
+	right: 6px;
+	font-size: 26px;
+}
+
+.wp_ca_item_edit_section.selecting .wp_ca_cslots,
+.wp_ca_item_edit_section.selecting .wp-ca-am-hours-count,
+.wp_ca_item_edit_section.selecting .wp_ca_hours_selection h3,
+.wp_ca_item_edit_section.selecting .wp_ca_hours_selection h4{
+	display:none;
+}
+.wp_ca_item_edit_section.selecting .wp_ca_hours_selection div.row div.col-md-3{
+	width:100%;
+}
+.wp_ca_item_edit_section.selecting .wp_ca_hours_selection .alert.alert-danger{
+	font-size:12px;
+	display:none;
+}
+.calendar-day ol{
+	list-style:none;
+	padding:0;
+	margin:0;
+	text-align:left;
+	width: 100px;
+}
+.calendar-day ol li {
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	line-height: 14px;
+	font-weight: normal;
+}
+.calendar-day ol li:before {
+	font-family: "FontAwesome";
+	content: "\f017";
+	font-size: 14px;
+	margin-right: 8px;
+}
+.account-user .avatar{
+	cursor:pointer;
+}
+.wp_ca_product_types_div > div:not(.prod_type){
+	display:none;
+}
+.wp_ca_product_types_div .prod_type {
+	display: inline-block;
+	margin-left: 6px;
+}
+.woocommerce-edit-address .woocommerce-MyAccount-content h3{
+	display:none;
+}
+.wpbw_updates_required {
+	border: 1px dashed #F00;
+	float: left;
+	padding: 12px;
+	text-align:left;
+	margin-bottom:20px;
+}
+.wpbw_updates_required strong{
+	width:100%;
+	text-align:left;
+	float:left;
+}
+.wp_bw_missing_buttons {
+	list-style: none;
+	margin: 10px auto 0;
+	padding: 0 !important;
+	float: left;
+	
+}
+.wp_bw_missing_buttons li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	margin-right: 2px;
+}
+.wp_bw_missing_buttons li a {
+	font-size: 12px;
+	padding: 8px 10px;
+	margin: 0;
+}
+.wp_bw_missing_buttons li a:hover{
+	text-decoration:none;
+}
+.products_display .li-img{
+	margin-bottom:6px;
+}
+.products_display .li-img img{
+	height:150px;
+	width:auto;
+}
+.products_display .li-head{
+	text-transform:capitalize;
+	font-size:14px;
+}
+body..renting .wpbw_updates_required,
+body.vendor .wpbw_updates_required{
+	display:none;
+}
+form.wp_ca_my_sales tr[class^="wp_ca_products_"] > td:first-child {
+	visibility: hidden;
+}
+.upgrading-account > p{
+
+}
+.upgrade-account-link{
+}
+li.upgrade-account-link a.primary.round.button {
+	padding: 4px 10px;
+}
+.upgrade-account-link a span{
+	color:#FFF;
+}
+.upgrade-account-link a i{
+	color:#FFF;
+}
+ul.request_custom_wrapper{
+}
+ul.request_custom_wrapper li{
+	list-style:none;
+	
+}
+ul.request_custom_wrapper li:first-child{
+	margin-top:10px;
+}
+
+ul.request_custom_wrapper li:hover{
+	
+}
+ul.request_custom_wrapper li a{
+	
+}
+ul.request_custom_wrapper li a:hover{
+	background:none;
+}
+.woocommerce-view-order .woocommerce header.title,
+.woocommerce-view-order .woocommerce address,
+.woocommerce-view-order .woocommerce-customer-details
+{display:none}
+.dcta{
+	cursor:pointer;
+	display:none;
+}
+.wp_ca_renting_rental{
+	background-color:rgba(222, 180, 32, 0.03);
+}
+.wp_ca_renting_vacation_tour{
+	background-color:rgba(36, 113, 9, 0.06);
+}
+.wp_ca_renting_on_demand_service{
+	background-color:rgba(18, 96, 176, 0.03);
+}
+.item_category_div{
+	float:left;
+	width:100%;
+}
+.ugc-inner-wrapper .ugc-input-wrapper label,
+.item_category_div > label{
+	font-size:18px;
+	color:#777;
+}
+.wp_ca_product_price form.cart #wc-deposits-options-form #deposit-suffix{
+	display:none;
+}
+.wp_ca_product_price form.cart #wc-deposits-options-form label{
+	padding:2px 20px;
+	text-shadow: none !important;
+}
+.rentable_view .wp_ca_product_price form.cart{
+	float:none;
+}
+.wp_ca_product_price form.cart #wc-deposits-options-form label.deposit-option{
+	padding-left:0;
+}
+div[id^="acf-"] p.label {
+	color: black;
+	font-size: 14px;
+}
+.ubtext {
+	text-align: center;
+	font-size: 36px;
+	color: #F7C00C;
+	text-shadow: 1px 1px rgba(0,0,0,0.2);
+	font-weight: bold;
+}
+.woocommerce-mini-cart__buttons.buttons{
+	display:none;
+}
+tr.no-items-to-show{
+	display:none !important;
+}

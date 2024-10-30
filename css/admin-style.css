@@ -1,0 +1,299 @@
+@charset "utf-8";
+
+
+
+/* CSS Document */
+
+
+
+	div.bw_settings_div {
+
+	}
+
+	
+
+	.wp_ca_settings_tab{
+
+	}
+
+	.wp_ca_settings_tab a{
+
+		cursor:pointer;
+
+	}	
+
+	
+
+		
+
+	
+
+	.bw_settings_div .wp_ca_optional {
+
+		
+
+	  background: rgba(155,92,143,0.8);
+
+	  border-bottom: 1px solid #ddd;
+
+	  border-bottom-left-radius: 6px;
+
+	  border-left: 1px solid #ddd;
+
+	  border-top-left-radius: 6px;
+
+	  float: right;
+
+	  margin: 20px 0;
+
+	  min-height: 600px;
+
+	  padding: 20px 10px 20px 22px;
+
+	  width: 26%;
+
+	  position:relative;
+
+	  
+
+
+
+	  
+
+	}
+
+
+
+	.bw_settings_div table{
+
+		margin-top:30px;
+
+		width:70%;
+
+	}
+
+	
+
+	.bw_settings_div table thead{
+
+	}
+
+
+
+	.bw_settings_div table thead th{
+
+		text-align:left;
+
+	}
+
+
+
+
+
+	.bw_settings_div .wp_ca_optional h3 {
+
+	  background: rgba(155,92,143, 0.8) none repeat scroll 0 0;
+
+	  border: 0 none;
+
+	  border-top-left-radius: 6px;
+
+	  color: #fff;
+
+	  font-size: 12px;
+
+	  margin: 0;
+
+	  padding: 6px 16px 0;
+
+	  position: absolute;
+
+	  right: 0;
+
+	  text-transform: uppercase;
+
+	  top: -24px;
+
+	}
+
+	.bw_settings_div .wp_ca_optional ul{
+
+		padding:0;
+
+		margin:0;
+
+	}
+
+	.bw_settings_div .wp_ca_optional ul li{
+
+		list-style:none;
+
+	}
+
+	.bw_settings_div .wp_ca_optional ul li:last-child {
+
+		background: rgba(0, 0, 0, 0) url("../images/icon-256x256.png") no-repeat scroll right 45px / 200px 200px;
+
+		float: right;
+
+		height: 256px;
+
+		width: 256px;
+
+	}	
+
+	
+
+	.bw_settings_div .wp_ca_optional ul li label{
+
+		padding:0;
+
+		margin:0 0 0 4px;
+
+		position:relative;
+
+		top:-1px;
+
+		font-size:14px;
+
+		color:#fff;
+
+	}
+
+	.bw_settings_div .wp_ca_optional ul li input{
+
+		padding:0;
+
+		margin:0;	
+
+	}
+
+	.bw_settings_div .wp_ca_optional ul li label{
+
+	}
+
+	.bw_settings_div .wp_ca_optional ul li label strong{
+
+		font-weight:normal;
+
+	}
+
+	.bw_settings_div .wp_ca_optional ul li label strong:nth-child(1),
+
+	.bw_settings_div .wp_ca_optional ul li.selected label strong:nth-child(2){
+
+		color:#fff;
+
+		font-weight:bold;
+
+		text-decoration:underline;
+
+	}
+
+	.bw_settings_div .wp_ca_optional ul li label strong:nth-child(2),
+
+	.bw_settings_div .wp_ca_optional ul li.selected label strong:nth-child(1){
+
+		color:#FF0;
+
+		font-weight:normal;
+
+		text-decoration:line-through;
+
+	}
+
+	.bw_settings_div .wp_ca_optional ul li.selected label strong:nth-child(1){
+
+		color:#FFF;
+
+	}
+
+	.bw_settings_div .wp_ca_optional ul li.selected label strong:nth-child(2){
+
+		color:#FF0;
+
+	}	
+
+	.bw_settings_div a.nav-tab{
+
+		cursor:pointer;
+
+	}
+
+	.bw_settings_div .hides{
+
+		display:none;
+
+	}
+
+	.bw_settings_div .wp_ca_notes{
+
+		padding:10px 0 0 0;
+
+	}
+
+	/* #Tablet 780px - Mobile 320px */
+
+	
+
+	.bw_settings_div .stats_total{
+
+	}
+
+	.bw_settings_div .stats_total li strong{
+
+		text-transform:capitalize;
+
+		font-weight:bold;
+
+	}
+
+	.bw_settings_div .nav-tab-wrapper > a:hover{
+
+		text-decoration:none;
+
+	}
+	
+	#wp_ca_posting_fee{
+		display:none;
+	}
+
+    @media only screen and (min-width: 320px) and (max-width: 780px) {
+
+		
+
+	}
+
+	#wp_ca_booking_work_box input[type="radio"],
+	#wp_ca_booking_work_box input[type="checkbox"]{
+		margin: -4px 4px 0 0;
+		width: 14px;
+		height: 14px;
+	}
+
+	#wp_ca_booking_work_box input[type="radio"]:checked::before{
+		width: 6px;
+		height: 6px;
+		margin: 3px;
+	}
+
+	#wp_ca_booking_work_box input[type="checkbox"]:checked::before{
+		margin: -4px 0 0 -5px;
+		height: 20px;
+		width: 20px;
+	}
+
+	#wp_ca_add_on_list,
+	#wp_ca_booking_work_box span.select2{
+		width: 100%;
+	}
+
+	label[for="wp_ca_add_on_list"]{
+		display: block;
+	}
+
+	#wp_ca_booking_work_box li.select2-search{
+		margin: 0;
+	}
+
+

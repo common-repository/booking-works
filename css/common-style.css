@@ -1,0 +1,1149 @@
+@charset "utf-8";
+
+
+
+/* CSS Document */
+
+.calendars-nav-panel{
+
+	width:100%;
+
+	margin:0 0 10px;
+
+	text-align:center;
+
+	
+
+}
+
+.calendars-nav-panel .dropdown{
+
+	width:200px;
+
+	margin:0 auto;
+
+}
+
+.calendars-nav-panel .dropdown ul{
+
+	list-style:none;
+
+	margin:0;
+
+	padding:0;
+
+	margin-top:10px;
+
+	
+
+}
+
+.calendars-nav-panel .dropdown ul li{
+
+	margin:0;
+
+	padding:0;	
+
+	font-size:12px;
+
+	cursor:pointer;
+
+}
+
+.calendars-nav-panel .dropdown ul li.active{
+
+	background-color:#46b8da;
+
+}
+
+.calendars-prev,
+
+.calendars-next{
+
+	cursor:pointer;
+
+}
+
+.calendars-next {
+
+	float: right;
+
+	position: relative;
+
+	top: -24px;
+
+}
+
+.calendars-prev{
+
+	float:left;
+
+}
+
+.calendars-now:hover{
+
+	text-decoration:none;
+
+}
+
+.wp_ca_loader{
+
+	position:absolute;
+
+	left:50%;
+
+	display:none;
+
+}
+
+.wp_ca_loader .wp_ca_loader_anim{
+
+    border: 16px solid #f3f3f3; /* Light grey */
+
+    border-top: 16px solid #3498db; /* Blue */
+
+    border-radius: 50%;
+
+    width: 120px;
+
+    height: 120px;
+
+    animation: spin 2s linear infinite;
+
+	position:relative;
+
+	left:-50%;
+
+	top:100px;
+
+	
+
+}
+
+
+
+@keyframes spin {
+
+    0% { transform: rotate(0deg); }
+
+    100% { transform: rotate(360deg); }
+
+}
+
+.calendar-day {
+
+	cursor:pointer;
+
+}
+
+.wp_ca_calendar_items{
+
+	display:none;
+
+}
+
+.owner_view .wp_ca_calendar_items{
+
+	display:block;
+
+}
+
+.owner_view .wp_ca_calendar_items .book_item,
+
+.owner_view .wp_ca_calendar_items .book_item_price,
+
+.owner_view .wp_ca_calendar_items .cta,
+
+.owner_view .wp_ca_calendar_items .wp_ca_nav_back{
+
+	display:none;
+
+}
+
+.owner_view h1:before,
+.owner_view .wp_ca_product_desc strong:before,
+.owner_view .wp_ca_product_price strong:before,
+.owner_view .wp_ca_product_video strong:before,
+.owner_view .wp_ca_product_types_div .prod_type:before,
+.owner_view .wp_ca_sale strong:before{
+	font-family: "FontAwesome";
+	content: "\f040";
+	float: right;
+	width: auto;
+	margin-left: 14px;
+	color: #000;
+	background-color: #ccc;
+	padding: 0 6px;
+	font-size: 21px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.sl {
+	height: 40px;
+	min-height: auto;
+	width: 72%;
+}
+.mli {	
+	min-height:120px;
+	width: 92%;
+}
+.owner_view .editable{
+	cursor:pointer;
+}
+.owner_view .editable:before {
+	font-family: "FontAwesome";
+	content: "\f0c7";
+	width: auto;
+	margin-left: 2px;
+	color: #000;
+	padding: 0 6px;
+	font-size: 28px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.wp_ca_calendar_items label span{
+
+	font-weight:normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Table 1 Style */
+
+table.wp_ca_table1{
+
+    font-family: "Trebuchet MS", sans-serif;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    line-height: 1.4em;
+
+    font-style: normal;
+
+    border-collapse:separate;
+	margin-bottom:0;
+
+}
+
+.wp_ca_table1 thead th{
+
+    padding:4px;
+
+	text-align:center;
+
+    color:#fff;
+
+    text-shadow:1px 1px 1px #568F23;
+
+    border:1px solid #93CE37;
+
+    border-bottom:3px solid #9ED929;
+
+    background-color:#9DD929;
+
+    background:-webkit-gradient(
+
+        linear,
+
+        left bottom,
+
+        left top,
+
+        color-stop(0.02, rgb(123,192,67)),
+
+        color-stop(0.51, rgb(139,198,66)),
+
+        color-stop(0.87, rgb(158,217,41))
+
+        );
+
+    background: -moz-linear-gradient(
+
+        center bottom,
+
+        rgb(123,192,67) 2%,
+
+        rgb(139,198,66) 51%,
+
+        rgb(158,217,41) 87%
+
+        );
+
+    -webkit-border-top-left-radius:5px;
+
+    -webkit-border-top-right-radius:5px;
+
+    -moz-border-radius:5px 5px 0px 0px;
+
+    border-top-left-radius:5px;
+
+    border-top-right-radius:5px;
+
+}
+
+.wp_ca_table1 tfoot th{
+
+	text-align:center;
+
+}
+
+.wp_ca_table1 thead th:empty{
+
+    background:transparent;
+
+    border:none;
+
+}
+
+.wp_ca_table1 tbody th{
+
+    color:#fff;
+
+    text-shadow:1px 1px 1px #568F23;
+
+    background-color:#9DD929;
+
+    border:1px solid #93CE37;
+
+    border-right:3px solid #9ED929;
+
+    padding:0px 10px;
+
+    background:-webkit-gradient(
+
+        linear,
+
+        left bottom,
+
+        right top,
+
+        color-stop(0.02, rgb(158,217,41)),
+
+        color-stop(0.51, rgb(139,198,66)),
+
+        color-stop(0.87, rgb(123,192,67))
+
+        );
+
+    background: -moz-linear-gradient(
+
+        left bottom,
+
+        rgb(158,217,41) 2%,
+
+        rgb(139,198,66) 51%,
+
+        rgb(123,192,67) 87%
+
+        );
+
+    -moz-border-radius:5px 0px 0px 5px;
+
+    -webkit-border-top-left-radius:5px;
+
+    -webkit-border-bottom-left-radius:5px;
+
+    border-top-left-radius:5px;
+
+    border-bottom-left-radius:5px;
+
+}
+
+.wp_ca_table1 tfoot td{
+
+    color: #9CD009;
+
+    font-size:32px;
+
+    text-align:center;
+
+    padding:10px 0px;
+
+    text-shadow:1px 1px 1px #444;
+
+}
+
+.wp_ca_table1 tfoot th{
+
+    color:#666;
+
+}
+
+.wp_ca_table1 tbody td,
+
+.wp_ca_table1 tbody td.calendar-day{
+
+    padding:10px;
+
+    text-align:center;
+
+    background-color:#DEF3CA;
+
+    border: 2px solid #FFF;
+
+    -moz-border-radius:2px;
+
+    -webkit-border-radius:2px;
+
+    border-radius:2px;
+
+    color:#666;
+
+    text-shadow:1px 1px 1px #fff;
+	
+	max-width: 136px
+
+}
+.wp_ca_table1 tbody td.calendar-day.normal.selected.active{
+	background-color:#DEFDCA;
+}
+.wp_ca_table1 tbody td.calendar-day.normal.selected:hover{
+	
+	background-color:#DEFDCA;
+	
+}
+.wp_ca_table1 tbody td.calendar-day.normal.selected:hover ol{
+	color:#000;
+}
+.wp_ca_table1 tbody td.calendar-day.booked{
+
+	background-color:rgba(242,243,202, 0.6);
+
+}
+
+
+
+.wp_ca_table1 tbody td.calendar-day.today,
+
+.wp_ca_table1 tbody td:hover{
+
+	background-color:rgba(222,243,202, 0.6);
+
+}
+
+.wp_ca_table1 tbody td:first-child{
+
+	border-left: 2px solid #93ce37;
+
+}
+
+.wp_ca_table1 tbody td:last-child{
+
+	border-right: 2px solid #93ce37;
+
+}
+
+.wp_ca_table1 tbody tr:last-child td{
+
+	border-bottom: 2px solid #93ce37;
+
+}
+
+.wp_ca_table1 tbody span.check::before{
+
+    content : url(../images/check0.png)
+
+}
+
+
+
+.wp_ca_table1 tbody td.calendar-day.past,
+
+.wp_ca_table1 tbody td.calendar-day.na{
+
+	background-color:rgba(51,51,51, 0.2);
+
+	color:#000000;
+
+	text-shadow:none;
+
+	cursor:text;
+
+
+
+}
+
+
+
+.wp_ca_table1 tbody td.calendar-day.na{
+
+	background-color:rgba(255, 0, 0, 0.1);
+
+	cursor:pointer;
+
+	
+
+	
+
+}
+
+.wp_ca_table1 tbody td.calendar-day.past:before{
+
+	/*font-family:"FontAwesome";
+
+	content:"\f2b7";
+
+	float:right;
+
+	opacity:0.2;*/
+
+}
+
+.wp_ca_table1 tbody td.calendar-day.confirmed{
+
+	background-color:rgba(255, 0, 0, 0.1);	
+
+	cursor:text;
+	
+	position:relative;
+
+}
+.wp_ca_table1 tbody td.calendar-day.confirmed span{
+	font-size:10px;
+	margin-right:6px;
+	display:none;
+}
+.wp_ca_table1 tbody td.calendar-day.confirmed span:before{
+	
+	font-family:"FontAwesome";
+	content:"\f017";	
+	color:#000;
+	font-weight:normal;
+
+}
+
+.wp_ca_table1 tbody td.calendar-day.confirmed b, 
+.wp_ca_table1 tbody td.calendar-day.confirmed b i {
+	height: 4px;
+	float: left;
+	border-radius: 10px;
+}
+.wp_ca_table1 tbody td.calendar-day.confirmed b {
+	width: 100%;
+	background-color: #999;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+}
+.wp_ca_table1 tbody td.calendar-day.confirmed b i {
+	background-color: #666;
+}
+.wp_ca_table1 tbody td.calendar-day.selected{
+
+	background-color:rgba(222,243,202, 0.6);
+
+}
+
+.wp_ca_table1 tbody td.calendar-day.confirmed img{
+
+	height:32px;
+
+	width:32px;
+
+}
+
+.wp_ca_table1 tbody td.calendar-day.confirmed:before{
+
+	font-family:"FontAwesome";
+
+	content:"\f09d";
+
+	float:right;
+
+	color:#F00;
+
+	opacity:0.4;
+
+}
+
+.wp_ca_table1 tbody td.calendar-day.selected:before{
+	font-family:"FontAwesome";
+
+	content:"\f13d";
+
+	float:right;
+
+	color:#000;
+
+	opacity:0.4;	
+}
+
+
+.wp_ca_table1 tbody td.calendar-day.na:before{
+
+	font-family:"FontAwesome";
+
+	content:"\f00d";
+
+	float:right;
+
+	opacity:0.4;
+
+	color:#F00;
+	
+	font-size:16px;
+
+}
+
+
+	
+
+.wp_ca_cslots {
+	border-radius: 12px;
+	border: 1px solid beige;
+	background-color: beige;
+	padding: 10px 14px 10px 14px;
+	margin-top: 34px;
+}
+.wp_ca_cslots:before{
+	font-family:"FontAwesome";
+
+	content:"\f274";	
+}
+.wp_ca_cslots div.row {
+	cursor: pointer;
+	background-color: beige;
+}
+.wp_ca_cslots div.row.current > span:first-child::before {
+	font-family: "FontAwesome";
+	content: "\f105";
+	left: -16px;
+	position: relative;
+	color: #ccc;
+	margin-left: -6px;
+}
+.wp_ca_cslots div.row.current {
+	color: #000;
+}
+
+section.woocommerce-order-details div.wp-ca-offer-counter{
+	margin: 0 0 30px 0 !important;
+}
+
+.wp-ca-offer-counter > h2{
+
+
+
+}
+
+.wp-ca-offer-counter ul{
+
+	list-style:none;
+
+}
+
+.wp-ca-offer-counter ul li{
+
+	margin-right:10px;
+
+	font-size:30px;
+
+	padding:20px 0;
+
+	text-align:center;
+
+
+
+}
+
+.wp-ca-offer-counter ul li:last-child{
+
+	margin-right:0;
+
+}
+
+.wp-ca-offer-counter ul li.sep{
+
+	width:10px;
+
+	
+
+}
+
+.wp-ca-offer-counter ul li.sep span{
+
+}
+
+.wp-ca-offer-counter ul li.dd:after{
+
+	content:"DAYS";
+
+}
+
+.wp-ca-offer-counter ul li.hh:after{
+
+	content:"HOURS";
+
+}
+
+.wp-ca-offer-counter ul li.mm:after{
+
+	content:"MINUTES";
+
+}
+
+.wp-ca-offer-counter ul li.ss:after{
+
+	content:"SECONDS";
+
+}
+
+.wp-ca-offer-counter ul li.dd:after,
+
+.wp-ca-offer-counter ul li.hh:after,
+
+.wp-ca-offer-counter ul li.mm:after,
+
+.wp-ca-offer-counter ul li.ss:after{
+
+	float: left;
+
+	font-size: 10px;
+
+	padding-top: 0;
+
+	text-align: center;
+
+	width: 100%;
+
+}
+
+
+
+
+
+/* Table 2 Style */
+
+table.wp_ca_table2{
+
+    font-family: Georgia, serif;
+
+    font-size: 18px;
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    letter-spacing: -1px;
+
+    line-height: 1.2em;
+
+    border-collapse:collapse;
+
+    text-align:center;
+
+}
+
+.wp_ca_table2 thead th, .wp_ca_table2 tfoot td{
+
+    padding:20px 10px 40px 10px;
+
+    color:#fff;
+
+    font-size: 26px;
+
+    background-color:#222;
+
+    font-weight:normal;
+
+    border-right:1px dotted #666;
+
+    border-top:3px solid #666;
+
+    -moz-box-shadow:0px -1px 4px #000;
+
+    -webkit-box-shadow:0px -1px 4px #000;
+
+    box-shadow:0px -1px 4px #000;
+
+    text-shadow:1px 1px 1px #000;
+
+}
+
+.wp_ca_table2 tfoot th{
+
+    padding:10px;
+
+    font-size:18px;
+
+    text-transform:uppercase;
+
+    color:#888;
+
+}
+
+.wp_ca_table2 tfoot td{
+
+    font-size:36px;
+
+    color:#EF870E;
+
+    border-top:none;
+
+    border-bottom:3px solid #666;
+
+    -moz-box-shadow:0px 1px 4px #000;
+
+    -webkit-box-shadow:0px 1px 4px #000;
+
+    box-shadow:0px 1px 4px #000;
+
+}
+
+.wp_ca_table2 thead th:empty{
+
+    background:transparent;
+
+    -moz-box-shadow:none;
+
+    -webkit-box-shadow:none;
+
+    box-shadow:none;
+
+}
+
+.wp_ca_table2 thead :nth-last-child(1){
+
+    border-right:none;
+
+}
+
+.wp_ca_table2 thead :first-child,
+
+.wp_ca_table2 tbody :nth-last-child(1){
+
+    border:none;
+
+}
+
+.wp_ca_table2 tbody th{
+
+    text-align:right;
+
+    padding:10px;
+
+    color:#333;
+
+    text-shadow:1px 1px 1px #ccc;
+
+    background-color:#f9f9f9;
+
+}
+
+.wp_ca_table2 tbody td{
+
+    padding:10px;
+
+    background-color:#f0f0f0;
+
+    border-right:1px dotted #999;
+
+    text-shadow:-1px 1px 1px #fff;
+
+    text-transform:uppercase;
+
+    color:#333;
+
+}
+
+.wp_ca_table2 tbody span.check::before{
+
+    content : url(../images/check1.png)
+
+}
+
+
+
+/* Table 3 Style */
+
+table.wp_ca_table3{
+
+    font-family:Arial;
+
+    font-size: 18px;
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    text-transform: uppercase;
+
+    letter-spacing: -1px;
+
+    line-height: 1.7em;
+
+    text-align:center;
+
+    border-collapse:collapse;
+
+}
+
+.wp_ca_table3 thead th{
+
+    padding:6px 10px;
+
+    text-transform:uppercase;
+
+    color:#444;
+
+    font-weight:bold;
+
+    text-shadow:1px 1px 1px #fff;
+
+    border-bottom:5px solid #444;
+
+}
+
+.wp_ca_table3 thead th:empty{
+
+    background:transparent;
+
+    border:none;
+
+}
+
+.wp_ca_table3 thead :nth-child(2),
+
+.wp_ca_table3 tfoot :nth-child(2){
+
+    background-color: #7FD2FF;
+
+}
+
+.wp_ca_table3 tfoot :nth-child(2){
+
+    -moz-border-radius:0px 0px 0px 5px;
+
+    -webkit-border-bottom-left-radius:5px;
+
+    border-bottom-left-radius:5px;
+
+}
+
+.wp_ca_table3 thead :nth-child(2){
+
+    -moz-border-radius:5px 0px 0px 0px;
+
+    -webkit-border-top-left-radius:5px;
+
+    border-top-left-radius:5px;
+
+}
+
+.wp_ca_table3 thead :nth-child(3),
+
+.wp_ca_table3 tfoot :nth-child(3){
+
+    background-color: #45A8DF;
+
+}
+
+.wp_ca_table3 thead :nth-child(4),
+
+.wp_ca_table3 tfoot :nth-child(4){
+
+    background-color: #2388BF;
+
+}
+
+.wp_ca_table3 thead :nth-child(5),
+
+.wp_ca_table3 tfoot :nth-child(5){
+
+    background-color: #096A9F;
+
+}
+
+.wp_ca_table3 thead :nth-child(5){
+
+    -moz-border-radius:0px 5px 0px 0px;
+
+    -webkit-border-top-right-radius:5px;
+
+    border-top-right-radius:5px;
+
+}
+
+.wp_ca_table3 tfoot :nth-child(5){
+
+    -moz-border-radius:0px 0px 5px 0px;
+
+    -webkit-border-bottom-right-radius:5px;
+
+    border-bottom-right-radius:5px;
+
+}
+
+.wp_ca_table3 tfoot td{
+
+    font-size:38px;
+
+    font-weight:bold;
+
+    padding:15px 0px;
+
+    text-shadow:1px 1px 1px #fff;
+
+}
+
+.wp_ca_table3 tbody td{
+
+    padding:10px;
+
+}
+
+.wp_ca_table3 tbody tr:nth-child(4) td{
+
+    font-size:26px;
+
+    font-weight:bold;
+
+}
+
+.wp_ca_table3 tbody td:nth-child(even){
+
+    background-color:#444;
+
+    color:#444;
+
+    border-bottom:1px solid #444;
+
+    background:-webkit-gradient(
+
+        linear,
+
+        left bottom,
+
+        left top,
+
+        color-stop(0.39, rgb(189,189,189)),
+
+        color-stop(0.7, rgb(224,224,224))
+
+        );
+
+    background:-moz-linear-gradient(
+
+        center bottom,
+
+        rgb(189,189,189) 39%,
+
+        rgb(224,224,224) 70%
+
+        );
+
+    text-shadow:1px 1px 1px #fff;
+
+}
+
+.wp_ca_table3 tbody td:nth-child(odd){
+
+    background-color:#555;
+
+    color:#f0f0f0;
+
+    border-bottom:1px solid #444;
+
+    background:-webkit-gradient(
+
+        linear,
+
+        left bottom,
+
+        left top,
+
+        color-stop(0.39, rgb(85,85,85)),
+
+        color-stop(0.7, rgb(105,105,105))
+
+        );
+
+    background:-moz-linear-gradient(
+
+        center bottom,
+
+        rgb(85,85,85) 39%,
+
+        rgb(105,105,105) 70%
+
+        );
+
+    text-shadow:1px 1px 1px #000;
+
+}
+
+.wp_ca_table3 tbody td:nth-last-child(1){
+
+    border-right:1px solid #222;
+
+}
+
+.wp_ca_table3 tbody th{
+
+    color:#696969;
+
+    text-align:right;
+
+    padding:0px 10px;
+
+    border-right:1px solid #aaa;
+
+}
+
+.wp_ca_table3 tbody span.check::before{
+
+    content : url(../images/check2.png)
+
+}
+
