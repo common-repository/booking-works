@@ -1,9 +1,9 @@
 === Booking Works ===
-Contributors: fahadmahmood
-Tags: calendars, bookings
+Contributors: fahadmahmood, invoicepress
+Tags: calendars, bookings, real estate, hotel rooms, events
 Requires at least: 4.9
-Tested up to: 6.2
-Stable tag: 1.0.3
+Tested up to: 6.6
+Stable tag: 1.0.4
 Requires PHP: 7.0
 License: GPL2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -65,8 +65,6 @@ Yes, you can track your booking/order, but you must be logged-in.
 
 
 == Changelog ==
-= 1.0.3 =
-* Version updated for WordPress. [02/04/2023]
 = 1.0.2 =
 * Assets updated.
 = 1.0.1 =
@@ -76,8 +74,6 @@ Yes, you can track your booking/order, but you must be logged-in.
 
 
 == Upgrade Notice ==
-= 1.0.3 =
-Version updated for WordPress.
 = 1.0.2 =
 Assets updated.
 = 1.0.1 =

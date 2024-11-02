@@ -3,7 +3,7 @@
 	Plugin Name: Booking Works
 	Plugin URI: https://profiles.wordpress.org/fahadmahmood/#content-plugins
 	Description: A great plugin to manage bookings and calendar related functions.
-	Version: 1.0.3
+	Version: 1.0.4
 	Author: Fahad Mahmood
 	Author URI: https://www.androidbubbles.com
     Text Domain: booking-works
